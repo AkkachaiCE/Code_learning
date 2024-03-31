@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home Page
+{% endblock %}
+
+{% block main %}
+    <div>
+        <table class="table mx-auto w-auto">
+            <thead>
+                <tr>
+                    <th>Symbol</th>
+                    <th>Number of Shares</th>
+                    <th>Current Price</th>
+                    <th>Total Value of Holding</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for stock in portfolio %}
+                <tr>
+                    <td>{{ stock.symbol }}</td>
+                    <td>{{ stock.total_shares }}</td>
+                    <td>{{ stock.price | usd }}</td>
+                    <td>{{ stock.total_value | usd }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>User's current Cash</td>
+                    <td>{{ current_cash | usd }}</td>
+                </tr>
+                <tr>
+                    <td>Grand Total</td>
+                    <td>{{ grand_total | usd }}</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+{% endblock %}

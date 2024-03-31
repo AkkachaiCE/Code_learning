@@ -1,0 +1,4 @@
+input number
+check 0 < number < 8 if not do it again
+use loop to print #
+ 

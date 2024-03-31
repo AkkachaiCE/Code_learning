@@ -1,0 +1,118 @@
+body {
+    background-color: #78b7f7;
+    color: black;
+    font-size: 5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: center;
+}
+
+.lh {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size:25px;
+  font-weight: 600;
+  line-height: 10px;
+  text-align: left;
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+}
+
+.detail1 {
+    margin-left: 7rem;
+    margin-right: 7rem;
+    text-align: left;
+}
+
+.bgtext {
+    background-color: #FFFFE0;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    padding: 0.4rem 0.5rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.header1 {
+    margin-left: 7rem;
+    margin-right: 7rem;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.header2 {
+    margin-left: 7rem;
+    margin-right: 7rem;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: left;
+}
+.tabletext {
+    margin-left: 7rem;
+    margin-right: 7rem;
+    font-size: 1.2rem;
+    font-weight: 200;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.homepage {
+    background-color: #477bff;
+    color: #fff;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+button {
+    background-color: #d9edff;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1;
+    padding: 0.4rem 0.5rem;
+    text-align: center;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    vertical-align: middle;
+
+}
+
+.section {
+    padding: 0.5rem 2rem 1rem 2rem;
+    background-color: #FAF0E6;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    padding: 0.4rem 0.5rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.btn {
+    background-color: #d9edff;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1;
+    padding: 0.4rem 0.5rem;
+    text-align: center;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    vertical-align: middle;
+}
