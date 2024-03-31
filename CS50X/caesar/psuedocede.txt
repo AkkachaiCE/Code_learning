@@ -1,0 +1,8 @@
+single command-line argument
+    argc = 2 and k > 0
+    without command line or more than one
+    if argc < 1 or argc > 2
+    print and return 1
+
+    if argv(k) not int 
+    print error and return 1
